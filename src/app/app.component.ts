@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  onButtonClick(event) {
+    console.log(`Click event is working, event:`, event);
+  }
+
 }
